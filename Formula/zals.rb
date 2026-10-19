@@ -7,28 +7,28 @@
 class Zals < Formula
   desc "Zig Ansible Language Server"
   homepage "https://github.com/kksat/zals"
-  version "0.1.0"
+  version "0.2.0"
   license "GPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/kksat/zals/releases/download/v0.1.0/zals-0.1.0-aarch64-macos.tar.gz"
-      sha256 "747e257aee43d508f4668f165a667f4120de2e4075e798fcb036fdae32f40e15"
+      url "https://github.com/kksat/zals/releases/download/v0.2.0/zals-0.2.0-aarch64-macos.tar.gz"
+      sha256 "9e1dd143777f0406db9366856433ecbe989a833b1ce0f435c38d372fd9161cd6"
     end
     on_intel do
-      url "https://github.com/kksat/zals/releases/download/v0.1.0/zals-0.1.0-x86_64-macos.tar.gz"
-      sha256 "453e3f2bbfe6cc326178871bb49c2d06229c7946e1705efccd908ec04a8ab418"
+      url "https://github.com/kksat/zals/releases/download/v0.2.0/zals-0.2.0-x86_64-macos.tar.gz"
+      sha256 "0be2f83a03b452637a06b5d505263cd6cf56c689ca9f0f0c10cb3ea00fd12b59"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kksat/zals/releases/download/v0.1.0/zals-0.1.0-aarch64-linux.tar.gz"
-      sha256 "4221d72c72f8f511014b7cc53f71c7914cf3ef96077cf5e62aeeccc7c05191fb"
+      url "https://github.com/kksat/zals/releases/download/v0.2.0/zals-0.2.0-aarch64-linux.tar.gz"
+      sha256 "e79838ed9d50dcf18370aa040c36a4b3bc94422565ce28802e927d4d938f3b4e"
     end
     on_intel do
-      url "https://github.com/kksat/zals/releases/download/v0.1.0/zals-0.1.0-x86_64-linux.tar.gz"
-      sha256 "864d6844b8dd3b359c56824b17127339ac387fe352e5fb4ba64e9eef41131ef6"
+      url "https://github.com/kksat/zals/releases/download/v0.2.0/zals-0.2.0-x86_64-linux.tar.gz"
+      sha256 "bac2b26191b9d148226005e7d40c722e23d32a041ce86c23452efcc055aa443e"
     end
   end
 
